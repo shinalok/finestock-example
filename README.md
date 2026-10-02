@@ -13,4 +13,4 @@ copy .env.example .env              # 사용할 Provider의 APP_KEY / APP_SECRET
 python example_oauth.py
 ```
 
-Provider(EBEST, LS, KIS, KIWOOM, NH, DB 및 모의 V 버전)를 선택한 뒤 `1. OAuth 하기`로 접근 토큰을 발급받습니다.
+Provider(LS, KIS, KIWOOM, NH, DB)와 모드(실전/모의투자, `finestock.create_api(provider, mode=...)`)를 선택한 뒤 `1. OAuth 하기`로 접근 토큰을 발급받습니다.
