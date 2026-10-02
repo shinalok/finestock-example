@@ -1,0 +1,13 @@
+[project]
+name = "finestock-example"
+version = "0.1.0"
+description = "finestock 라이브러리(PyPI) 사용 예제"
+requires-python = ">=3.9"
+dependencies = [
+    "finestock>=2.1.0.0",
+    "python-dotenv",
+]
+
+# 상위 폴더(C:\workspace_ai)의 uv 워크스페이스에 포함되지 않고, PyPI의 finestock을 사용한다.
+[tool.uv.workspace]
+members = []
